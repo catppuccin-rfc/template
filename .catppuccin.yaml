@@ -1,11 +1,11 @@
 # A Catppuccin RC file for Helix. In beta, specs may change.
-app_name: "{{ .Name }}" # name of app
-binary_name: "{{ .Exec }}" # name of executable
+app_name: "{{.Name}}" # name of app
+binary_name: "{{.Exec}}" # name of executable
 installation: # Install instructions
   location:
-    macos: "{{ .MacosLocation }}"
-    linux: " {{ .LinuxLocation }}"
-    windows: "{{ .WinLocation }}"
+    macos: "{{.MacosLocation}}"
+    linux: " {{.LinuxLocation}}"
+    windows: "{{.WinLocation}}"
   flavours: # Specific flavours
     all:
       default:
