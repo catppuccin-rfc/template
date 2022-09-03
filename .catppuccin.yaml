@@ -1,0 +1,27 @@
+# A Catppuccin RC file for Helix. In beta, specs may change.
+app_name: "{{ .Name }}" # name of app
+binary_name: "{{ .Exec }}" # name of executable
+installation: # Install instructions
+  location:
+    macos: "{{ .MacosLocation }}"
+    linux: " {{ .LinuxLocation }}"
+    windows: "{{ .WinLocation }}"
+  flavours: # Specific flavours
+    all:
+      default:
+        - ""
+    latte:
+      default: # Install locations
+        - ""
+    frappe:
+      default:       
+        - ""
+    macchiato:
+      default:
+        - ""
+    mocha:
+      default:
+        - ""
+  to: "" # Install location
+  one_flavour: false # Only one flavour?
+  modes: [] # additional modes
